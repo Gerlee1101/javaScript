@@ -132,3 +132,68 @@
 // }
 // const greetings = time(7);
 // console.log(greetings);
+
+// function day(weather, temperature){
+//   if(weather=="sunny"){
+//     if(temperature>30){ 
+//       console.log("weather=",weather ,"temperature=",temperature);
+//       return "It's a hot day!";
+//     }
+//     else if(temperature>=20){
+//       if(temperature<=30){
+//         console.log("weather=",weather ,"temperature=",temperature);
+//         return "It's a warm day";
+//       }
+//     }
+//      else if(temperature<20){
+//       console.log("weather=",weather ,"temperature=",temperature);
+//     return "It's a bit cool today";
+//   }
+//   }
+//   else if (weather=="rainy"){
+//     console.log("weather=",weather ,"temperature=",temperature);
+//     return "Don't forget your umbrella!" ;
+//   }
+// }
+// const days=day("sunny", 25);
+// console.log(days);
+
+// function age(a){
+//   if(a>18){
+//     return "You are old enough to drive";
+//   }
+//   else if (a<18){
+//     let b=18-a;
+//     console.log("You are left with ",b, "ears to drive" );
+//     return;
+   
+//   }
+// }
+// const person=age(16);
+// console.log(person);
+
+// function taluud(a,b,c){
+//  if((a+b)>c){
+//   if ((b+c)>a){
+//     if((a+c)>b){
+//     return "3 tal ni zuv baina.";
+//   }
+// }
+//  }
+//  else {
+//     return "3 tal ni zuv bish baina.";
+//   }
+// }
+// const triangle=taluud(1,4,6);
+// console.log(triangle);
+
+function letter(a){
+  if(a="a","A"){
+     return "Vowel";
+}
+  else {
+    return "consonant";
+  }
+}
+const English_letters= letter("Q");
+console.log(English_letters);
